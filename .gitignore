@@ -1,0 +1,11 @@
+# Kubernetes confidential manifests
+k8s/secret.yml
+k8s/*secret*.yml
+
+# Dependencies and environment
+node_modules/
+.env
+
+# System/IDE files
+.vscode/
+.DS_Store
