@@ -4,7 +4,8 @@ A local three-tier application deployed on Kubernetes using Minikube, F5 NGINX I
 
 ## Architecture
 
-![Local Three-Tier Kubernetes Architecture](docs/architecture.png)
+<img width="1671" height="941" alt="mini-project" src="https://github.com/user-attachments/assets/22890e0d-d1ee-49a8-99a9-e8a4f669822e" />
+
 
 ## Request Flow
 
