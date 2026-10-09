@@ -20,7 +20,7 @@ const pool = new Pool({
 // Idle client errors must not crash the process
 pool.on("error", (err) => console.error("pg pool error:", err.message || err.code));
 
-app.get("/health", (req, res) => {
+app.get("/api/health", (req, res) => {
     res.json({
         status: "ok",
         service: "backend",
@@ -30,7 +30,7 @@ app.get("/health", (req, res) => {
     });
 });
 
-app.get("/db-check", async (req, res) => {
+app.get("/api/db-check", async (req, res) => {
     const start = Date.now();
     try {
         const { rows } = await pool.query(

@@ -8,7 +8,6 @@ metadata:
     nginx.org/client-max-body-size: "50m"
     nginx.org/proxy-connect-timeout: "30s"
     nginx.org/proxy-read-timeout: "30s"
-    nginx.org/rewrites: "serviceName=backend-service rewrite=/"
 spec:
   ingressClassName: nginx
   tls:
